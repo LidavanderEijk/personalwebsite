@@ -43,13 +43,17 @@ footer {
     background-color: rgb(255, 233, 213);
     text-align: center;
 }
-
-img {
+    
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 8px;
     width: 300px;
     padding: 20px 0px;
-    
+    border-radius: 8px;
 }
+img {
+    width: 300px; 
+    object-fit: contain;
+}
+
